@@ -1,3 +1,12 @@
+echo "BRANCH_NAME is :- ${env.BRANCH_NAME}"
+echo "BUILD_NAME is :-  ${env.BUILD_NUMBER}"
+echo "JOB_NAME is :-${env.JOB_NAME}"
+echo "JENKINS_NAME is :-  ${env.JENKINS_HOME}"
+echo "JENKINS_URL is :- ${env.JENKINS_URL}"
+echo "JOB_NAME is :- ${env.JOB_NAME}"
+
+
+
 node {
 
 def mavenHome = tool name : "maven3.8.5"
